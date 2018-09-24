@@ -13,5 +13,5 @@ function johnLennonFacts(factsArray) {
     factsArray[i] = factsArray.slice(i,1) + "!!!";
     i++;
   }
-  return johnLennonFacts;
+  return factsArray;
 }
